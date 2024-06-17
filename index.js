@@ -3,7 +3,29 @@ $(document).ready(function () {
         $(this).toggleClass('fa-times');
         $('.navbar').toggleClass('nav-toggle');
     });
+    $(window).on('scroll load', function () {
+        $('#menu').removeClass('fa-times');
+        $('.navbar').removeClass('nav-toggle');
 
+        if (window.scrollY > 60) {
+            document.querySelector('#scroll-top').classList.add('active');
+        } else {
+            document.querySelector('#scroll-top').classList.remove('active');
+        }
+
+        // scroll spy
+        $('section').each(function () {
+            const height = $(this).height();
+            const offset = $(this).offset().top - 200;
+            const top = $(window).scrollTop();
+            const id = $(this).attr('id');
+
+            if (top > offset && top < offset + height) {
+                $('.navbar ul li a').removeClass('active');
+                $('.navbar').find(`[href="#${id}"]`).addClass('active');
+            }
+        });
+    });
     // smooth scrolling
     $('a[href*="#"]').on('click', function (e) {
         e.preventDefault();
@@ -26,7 +48,7 @@ let typed = new Typed(".typing-text", {
 
 // display Skills 
 async function fetchSkills() {
-    let response = await fetch("public/skills.json")
+    const response = await fetch("public/skills.json")
     const data = await response.json();
     return data;
 }
@@ -60,7 +82,7 @@ fetchSkills().then(data => {
 
 // display projects 
 async function fetchProjects() {
-    let response = await fetch("public/projects.json")
+    const response = await fetch("public/projects.json")
     const data = await response.json();
     return data;
 }
