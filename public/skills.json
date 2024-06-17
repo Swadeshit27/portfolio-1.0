@@ -1,0 +1,172 @@
+[
+  {
+    "name": "HTML 5",
+    "icon": "public/skills/html.png",
+    "category": "front-end"
+  },
+  {
+    "name": "CSS 3",
+    "icon": "public/skills/css.png",
+    "category": "front-end"
+  },
+  {
+    "name": "JavaScript",
+    "icon": "public/skills/javascript.png",
+    "category": "front-end"
+  },
+  {
+    "name": "TypeScript",
+    "icon": "public/skills/typescript.png",
+    "category": "front-end"
+  },
+  {
+    "name": "Bootstrap",
+    "icon": "public/skills/bootstrap.png",
+    "category": "front-end"
+  },
+  {
+    "name": "Tailwind CSS",
+    "icon": "public/skills/tailwind.png",
+    "category": "front-end"
+  },
+  {
+    "name": "Material UI",
+    "icon": "public/skills/material.png",
+    "category": "front-end"
+  },
+  {
+    "name": "Antd UI",
+    "icon": "public/skills/ant.png",
+    "category": "front-end"
+  },
+  {
+    "name": "Jquery",
+    "icon": "public/skills/jquery.png",
+    "category": "front-end"
+  },
+  {
+    "name": "React JS",
+    "icon": "public/skills/reactjs.png",
+    "category": "front-end"
+  },
+  {
+    "name": "Redux",
+    "icon": "public/skills/redux.png",
+    "category": "front-end"
+  },
+  {
+    "name": "Framer Motion",
+    "icon": "public/skills/framer-motion.png",
+    "category": "front-end"
+  },
+  {
+    "name": "NextJs",
+    "icon": "public/skills/nextjs.png",
+    "category": "front-end"
+  },
+  {
+    "name": "React Native",
+    "icon": "public/skills/reactNative.png",
+    "category": "front-end"
+  },
+  {
+    "name": "Node JS",
+    "icon": "public/skills/nodejs.png",
+    "category": "back-end"
+  },
+  {
+    "name": "Express JS",
+    "icon": "public/skills/expressjs.png",
+    "category": "back-end"
+  },
+  {
+    "name": "Mongodb",
+    "icon": "public/skills/mongodb.png",
+    "category": "back-end"
+  },
+  {
+    "name": "Mysql",
+    "icon": "public/skills/mysql.png",
+    "category": "back-end"
+  },
+  {
+    "name": "Appwrite",
+    "icon": "public/skills/appwrite.png",
+    "category": "back-end"
+  },
+  {
+    "name": "Firebase",
+    "icon": "public/skills/firebase.png",
+    "category": "back-end"
+  },
+  {
+    "name": "C++",
+    "icon": "public/skills/cpp.png",
+    "category": "languages"
+  },
+  {
+    "name": "C",
+    "icon": "public/skills/c.png",
+    "category": "languages"
+  },
+  {
+    "name": "Java",
+    "icon": "public/skills/java.png",
+    "category": "languages"
+  },
+  {
+    "name": "Python",
+    "icon": "public/skills/python.png",
+    "category": "languages"
+  },
+  {
+    "name": "VS Code",
+    "icon": "public/skills/vs.png",
+    "category": "tools"
+  },
+  {
+    "name": "Git",
+    "icon": "public/skills/git.png",
+    "category": "tools"
+  },
+  {
+    "name": "GitHub",
+    "icon": "public/skills/github2.png",
+    "category": "tools"
+  },
+  {
+    "name": "Figma",
+    "icon": "public/skills/figma.png",
+    "category": "tools"
+  },
+  {
+    "name": "Vite",
+    "icon": "public/skills/vite.png",
+    "category": "tools"
+  },
+  {
+    "name": "Postman",
+    "icon": "public/skills/postman.png",
+    "category": "tools"
+  },
+  {
+    "name": "Arduino",
+    "icon": "public/skills/arduino.png",
+    "category": "tools"
+  },
+  {
+    "name": "Time Management",
+    "icon": "public/skills/timemanagemant.png",
+    "category": "softSkills"
+  },
+  {
+    "name": "Teamwork",
+    "icon": "public/skills/teamwork.png",
+    "category": "softSkills"
+  },
+  {
+    "name": "Leadership",
+    "icon": "public/skills/leadership.png",
+    "category": "softSkills"
+  }
+]
